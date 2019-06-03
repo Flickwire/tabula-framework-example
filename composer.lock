@@ -1,0 +1,46 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "45348da8a951658ff7c065d05d7d990d",
+    "packages": [
+        {
+            "name": "polymathic/tabula",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/polymathicltd/tabula.git",
+                "reference": "1925659cd000041c1ee3b8c8df0ddde28e278f5f"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tabula\\": "src/"
+                }
+            },
+            "license": [
+                "Proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Skye",
+                    "email": "skye@domos.me.uk"
+                }
+            ],
+            "description": "Tabula Framework",
+            "time": "2019-06-03T21:28:44+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "polymathic/tabula": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

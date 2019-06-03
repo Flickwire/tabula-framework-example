@@ -1,2 +1,4 @@
 <?php
-require_once('tabula/init.php');
+require_once('vendor/autoload.php');
+
+$tabula = new \Tabula\Tabula();

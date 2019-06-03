@@ -1,0 +1,23 @@
+{
+    "name": "polymathic/tabula-project",
+    "description": "A template project for Tabula. Used when creating new sites.",
+    "type": "project",
+    "license": "Proprietary",
+    "authors": [
+        {
+            "name": "Skye",
+            "email": "skye@domos.me.uk"
+        }
+    ],
+    "repositories": [
+        {
+            "url": "https://gitlab.com/polymathicltd/tabula.git",
+            "type": "git"
+        }
+    ],
+    "require": {
+        "polymathic/tabula": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
