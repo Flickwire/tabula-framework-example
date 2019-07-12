@@ -11,12 +11,17 @@
     ],
     "repositories": [
         {
-            "url": "https://gitlab.com/polymathicltd/tabula.git",
+            "url": "https://gitlab.com/polymathicltd/tabula/tabula.git",
+            "type": "git"
+        },
+        {
+            "url": "https://gitlab.com/polymathicltd/tabula/modules/admin.git",
             "type": "git"
         }
     ],
     "require": {
-        "polymathic/tabula": "dev-master"
+        "polymathic/tabula": "dev-master",
+        "tabula/module-admin": "dev-master"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
