@@ -15,7 +15,8 @@
     }],
     "require": {
         "polymathic/tabula": "dev-master",
-        "tabula/module-admin": "dev-master"
+        "tabula/module-admin": "dev-master",
+        "tabula/module-auth": "dev-master"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
