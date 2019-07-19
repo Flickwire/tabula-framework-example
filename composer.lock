@@ -12,13 +12,16 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.com:polymathicltd/tabula/tabula.git",
-                "reference": "391d912618bcd5a8ffaf798c887ee4e3f122f358"
+                "reference": "995880a6e613001786e475e2299e19a9a8eec7b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/polymathicltd%2Ftabula%2Ftabula/repository/archive.zip?sha=391d912618bcd5a8ffaf798c887ee4e3f122f358",
-                "reference": "391d912618bcd5a8ffaf798c887ee4e3f122f358",
+                "url": "https://gitlab.com/api/v4/projects/polymathicltd%2Ftabula%2Ftabula/repository/archive.zip?sha=995880a6e613001786e475e2299e19a9a8eec7b0",
+                "reference": "995880a6e613001786e475e2299e19a9a8eec7b0",
                 "shasum": ""
+            },
+            "require": {
+                "twig/twig": "^2.0"
             },
             "type": "library",
             "autoload": {
@@ -39,7 +42,7 @@
                 }
             ],
             "description": "Tabula Framework",
-            "time": "2019-07-15T11:32:21+00:00"
+            "time": "2019-07-19T19:06:38+00:00"
         },
         {
             "name": "polymathic/tabula-moduleinstaller",
@@ -120,17 +123,134 @@
             "time": "2018-10-13T22:51:35+00:00"
         },
         {
+            "name": "symfony/polyfill-ctype",
+            "version": "v1.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-ctype.git",
+                "reference": "82ebae02209c21113908c229e9883c419720738a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/82ebae02209c21113908c229e9883c419720738a",
+                "reference": "82ebae02209c21113908c229e9883c419720738a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-ctype": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.11-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                },
+                {
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
+                }
+            ],
+            "description": "Symfony polyfill for ctype functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "ctype",
+                "polyfill",
+                "portable"
+            ],
+            "time": "2019-02-06T07:57:58+00:00"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "v1.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "fe5e94c604826c35a32fa832f35bd036b6799609"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/fe5e94c604826c35a32fa832f35bd036b6799609",
+                "reference": "fe5e94c604826c35a32fa832f35bd036b6799609",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.11-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2019-02-06T07:57:58+00:00"
+        },
+        {
             "name": "tabula/module-admin",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.com:polymathicltd/tabula/modules/admin.git",
-                "reference": "ca769fc17a128e0526b00cc8cdb92cc137ca0a8d"
+                "reference": "5cf3d54fe992b14977e9d23ec2e57266b958f133"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/polymathicltd%2Ftabula%2Fmodules%2Fadmin/repository/archive.zip?sha=ca769fc17a128e0526b00cc8cdb92cc137ca0a8d",
-                "reference": "ca769fc17a128e0526b00cc8cdb92cc137ca0a8d",
+                "url": "https://gitlab.com/api/v4/projects/polymathicltd%2Ftabula%2Fmodules%2Fadmin/repository/archive.zip?sha=5cf3d54fe992b14977e9d23ec2e57266b958f133",
+                "reference": "5cf3d54fe992b14977e9d23ec2e57266b958f133",
                 "shasum": ""
             },
             "require": {
@@ -154,7 +274,7 @@
                 }
             ],
             "description": "Tabula Admin Panel",
-            "time": "2019-07-15T11:37:30+00:00"
+            "time": "2019-07-18T21:39:14+00:00"
         },
         {
             "name": "tabula/module-auth",
@@ -162,12 +282,12 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.com:polymathicltd/tabula/modules/auth.git",
-                "reference": "bcf02684c35a0d555a203174923fdc0043c16337"
+                "reference": "2da055378d3b2f6d6bafb46c9ed05065a415aa68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/polymathicltd%2Ftabula%2Fmodules%2Fauth/repository/archive.zip?sha=bcf02684c35a0d555a203174923fdc0043c16337",
-                "reference": "bcf02684c35a0d555a203174923fdc0043c16337",
+                "url": "https://gitlab.com/api/v4/projects/polymathicltd%2Ftabula%2Fmodules%2Fauth/repository/archive.zip?sha=2da055378d3b2f6d6bafb46c9ed05065a415aa68",
+                "reference": "2da055378d3b2f6d6bafb46c9ed05065a415aa68",
                 "shasum": ""
             },
             "require": {
@@ -194,7 +314,74 @@
                 }
             ],
             "description": "Tabula Auth Module",
-            "time": "2019-07-15T11:49:22+00:00"
+            "time": "2019-07-18T21:42:14+00:00"
+        },
+        {
+            "name": "twig/twig",
+            "version": "v2.11.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "699ed2342557c88789a15402de5eb834dedd6792"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/699ed2342557c88789a15402de5eb834dedd6792",
+                "reference": "699ed2342557c88789a15402de5eb834dedd6792",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0",
+                "symfony/polyfill-ctype": "^1.8",
+                "symfony/polyfill-mbstring": "^1.3"
+            },
+            "require-dev": {
+                "psr/container": "^1.0",
+                "symfony/debug": "^2.7",
+                "symfony/phpunit-bridge": "^3.4.19|^4.1.8|^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.11-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Twig_": "lib/"
+                },
+                "psr-4": {
+                    "Twig\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Armin Ronacher",
+                    "email": "armin.ronacher@active-4.com",
+                    "role": "Project Founder"
+                },
+                {
+                    "name": "Twig Team",
+                    "homepage": "https://twig.symfony.com/contributors",
+                    "role": "Contributors"
+                }
+            ],
+            "description": "Twig, the flexible, fast, and secure template language for PHP",
+            "homepage": "https://twig.symfony.com",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2019-06-18T15:37:11+00:00"
         }
     ],
     "packages-dev": [],
