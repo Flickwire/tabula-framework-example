@@ -1,12 +1,12 @@
 {
-    "name": "polymathic/tabula-project",
+    "name": "tabula/tabula-project",
     "description": "A template project for Tabula. Used when creating new sites.",
     "type": "project",
-    "license": "Proprietary",
+    "license": "MIT",
     "authors": [
         {
             "name": "Skye",
-            "email": "skye@domos.me.uk"
+            "email": "skye@blueskye.co.uk"
         }
     ],
     "repositories": [{
@@ -14,7 +14,7 @@
         "url": "https://packages.lovelace.digital"
     }],
     "require": {
-        "polymathic/tabula": "dev-master",
+        "tabula/tabula": "dev-master",
         "tabula/module-admin": "dev-master",
         "tabula/module-auth": "dev-master"
     },

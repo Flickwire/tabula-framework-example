@@ -38,7 +38,7 @@
             "authors": [
                 {
                     "name": "Skye",
-                    "email": "skye@domos.me.uk"
+                    "email": "skye@blueskye.co.uk"
                 }
             ],
             "description": "Tabula Framework",
@@ -79,7 +79,7 @@
             "authors": [
                 {
                     "name": "Skye",
-                    "email": "skye@domos.me.uk"
+                    "email": "skye@blueskye.co.uk"
                 }
             ],
             "description": "Module Installer for Tabula",
@@ -270,7 +270,7 @@
             "authors": [
                 {
                     "name": "Skye",
-                    "email": "skye@domos.me.uk"
+                    "email": "skye@blueskye.co.uk"
                 }
             ],
             "description": "Tabula Admin Panel",
@@ -310,7 +310,7 @@
             "authors": [
                 {
                     "name": "Skye",
-                    "email": "skye@domos.me.uk"
+                    "email": "skye@blueskye.co.uk"
                 }
             ],
             "description": "Tabula Auth Module",
